@@ -1,0 +1,45 @@
+.container1{
+	height: 99vh;
+}
+
+.logo{
+/*	vertical-align: middle;*/
+	width: 45%;
+	margin: 0;
+  	position: absolute;
+  	top: 51vh;
+    left: 30%;
+  	transform: translateX(-50%);
+  	transform: translateY(-50%);
+}
+
+.imgBox{
+	width: 100%;
+	min-height: 23.75%;	
+	margin-bottom: 1%;	
+	background-size: cover;
+}
+
+.box1{
+	background-image: url("../../Pictures/finishedAds/ghostPinkie.jpg");
+	}
+
+.box2{
+	background-image: url("../../../CompanyStuff/Website/websiteImages/forREALLONG_09.jpg");
+	}
+
+.box3{
+	background-image: url("../../../CompanyStuff/Website/websiteImages/LONGJOHN_08.jpg");
+	}
+
+.box4{
+	background-image: url("../../../CompanyStuff/Website/websiteImages/LONGJOHN_10.jpg");
+	}
+
+.container2{
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #FFFFFF;
+}
+
