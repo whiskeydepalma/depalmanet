@@ -21,24 +21,54 @@
 }
 
 .box1{
-	background-image: url("https://live.staticflickr.com/65535/51908921433_932e4726b0_h.jpg");
+/*	background-image: url("../../Pictures/finishedAds/ghostPinkie.jpg");*/
+	background-image: url("https://live.staticflickr.com/65535/51908921433_c3e81e0955_k.jpg");
 	}
 
 .box2{
-	background-image: url("https://live.staticflickr.com/65535/51910546798_ba345dc5de_k.jpg");
+/*	background-image: url("../../../CompanyStuff/Website/websiteImages/forREALLONG_09.jpg");*/
+	background-image: url("https://live.staticflickr.com/65535/51910546798_1783c36548_h.jpg");
+
 	}
 
 .box3{
+/*	background-image: url("../../../CompanyStuff/Website/websiteImages/LONGJOHN_08.jpg");*/
 	background-image: url("https://live.staticflickr.com/65535/51911070540_b0326b6483_h.jpg");
 	}
 
 .box4{
-	background-image: url("https://live.staticflickr.com/65535/51909459330_f8b820870a_k.jpg");
+	background-image: url("https://live.staticflickr.com/65535/51911070445_90ddd74c41_h.jpg");
 	}
 
 .container2{
-	width: 90%;
+	width: 100%;
+	height: 100vh;
+	justify-content: center;
+	align-content: center;
+	align-items: center;
+/*
 	margin-left: auto;
 	margin-right: auto;
+*/
 	background-color: #FFFFFF;
 }
+
+.content {
+	width: 30%;
+	font-size: 80%;
+	text-align: left;
+	float:left;
+	margin-top: 10vh;
+	background-color: #f89b3a;
+	padding-bottom: 20px;
+	margin-left: 1%;
+	margin-right: 1%;
+	border-radius: 3px;
+	padding-top: 20px;
+	border-bottom: 4px solid #6DC7D0;
+}
+	
+.cards{
+	width: 100%;
+	height: auto;
+	}
