@@ -53,22 +53,92 @@
 	background-color: #FFFFFF;
 }
 
-.content {
-	width: 30%;
-	font-size: 80%;
-	text-align: left;
-	float:left;
-	margin-top: 10vh;
-	background-color: #f89b3a;
-	padding-bottom: 20px;
-	margin-left: 1%;
-	margin-right: 1%;
-	border-radius: 3px;
-	padding-top: 20px;
-	border-bottom: 4px solid #6DC7D0;
+.card{
+	width: 300px;
+	height: 400px;
+	background: #FFFFFF;
+	border-radius: 30px;
+	overflow: hidden;
+	position: relative;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	cursor: pointer;
+	transition: all .25s ease;
+	backface-visibility: hidden;
+}
+
+.card:hover{
+	transform:scale(.9);
+}
+
+.card:hover:after{
+	height: 200px;
+}
+
+.card:hover .con-text p{
+	margin-bottom: 0;
+	opacity: 1;
+}
+
+.card:hover img{
+	transform:scale(1.25);
 }
 	
-.cards{
+.card:hover .ul{
+	transform:translate(0);
+	opacity: 1;
+}
+
+.card:after{
 	width: 100%;
-	height: auto;
-	}
+	content: '';
+	left: 0px;
+	bottom: 0px;
+	height: 150px;
+	position: absolute;
+	background: linear-gradient(180deg, rgba(0,0,0,0) 0%, rgba(0,0,0,1) 100%);
+	z-index: 20;
+	transition: all .25s ease;
+}
+
+.card img{
+	height: 100%;
+	z-index: 10;
+	transition: all .25s ease;
+}
+
+.card .con-text{
+	z-index: 30;
+	position: absolute;
+	bottom: 0px;
+	color:#FFFFFF;
+	padding: 20px;
+	padding-bottom: 30px;
+}
+
+.card .con-text p{
+	font-size: .8rem;
+	opacity: 0;
+	margin-bottom: -170px;
+	transition: all .25s ease;
+	display: flex;
+	align-items: center;
+	align-content: flex-end;
+	justify-content: flex-end;
+	flex-direction: column;
+}
+
+.card .con-text p button{
+	padding: 7px 17px;
+	border-radius: 12px;
+	background: transparent;
+	border: 2px solid #FFFFFF;
+	color: #FFFFFF;
+	margin-top: 10px;
+	margin-left: auto;
+	cursor: pointer;
+	transition: all .25s ease;
+	font-size: .75rem;
+	outline: none;
+}
