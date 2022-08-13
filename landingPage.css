@@ -1,9 +1,8 @@
 .container1{
-	height: 99vh;
+	height: 100vh;
 }
 
 .logo{
-/*	vertical-align: middle;*/
 	width: 45%;
 	margin: 0;
   	position: absolute;
@@ -15,7 +14,7 @@
 
 .imgBox{
 	width: 100%;
-	min-height: 23.75%;	
+	min-height: 22vh;	
 	margin-bottom: 1%;	
 	background-size: cover;
 }
@@ -28,7 +27,6 @@
 .box2{
 /*	background-image: url("../../../CompanyStuff/Website/websiteImages/forREALLONG_09.jpg");*/
 	background-image: url("https://live.staticflickr.com/65535/51910546798_1783c36548_h.jpg");
-
 	}
 
 .box3{
@@ -46,32 +44,22 @@
 	justify-content: center;
 	align-content: center;
 	align-items: center;
-/*
-	margin-left: auto;
-	margin-right: auto;
-*/
 	background-color: #FFFFFF;
-	padding-top: 30px;
+	padding-top: 2vh;
 }
 
 .grid{
 	display: grid;
-	padding: 16px;
-	grid-gap: 16px;
+	justify-items: center;
+	grid-gap: 0;
 	grid-template-columns: repeat(4, 1fr);
 }
 
-.column{
-	margin-left: auto;
-	margin-right: auto;
-	background-color: pink;
-	margin-bottom: 16px;
-	padding: 16px;
-}
+
 
 .card{
-	width: 300px;
-	height: 400px;
+    width: 95%;
+    height: 66vh;
 	background: #FFFFFF;
 	border-radius: 30px;
 	overflow: hidden;
@@ -145,3 +133,15 @@
 	justify-content: flex-end;
 	flex-direction: column;
 }
+
+@media only screen and (max-width: 800px) {
+	/* For mobile phones: */
+	.grid{
+	grid-template-columns: repeat(2, 1fr);
+	grid-row-gap: 2vh
+		}
+
+	.card{
+		height: 45vh;
+	}
+	}
