@@ -17,20 +17,18 @@
 	min-height: 22vh;	
 	margin-bottom: 1%;	
 	background-size: cover;
+	background-position: center;
 }
 
 .box1{
-/*	background-image: url("../../Pictures/finishedAds/ghostPinkie.jpg");*/
 	background-image: url("https://live.staticflickr.com/65535/51908921433_c3e81e0955_k.jpg");
 	}
 
 .box2{
-/*	background-image: url("../../../CompanyStuff/Website/websiteImages/forREALLONG_09.jpg");*/
 	background-image: url("https://live.staticflickr.com/65535/51910546798_1783c36548_h.jpg");
 	}
 
 .box3{
-/*	background-image: url("../../../CompanyStuff/Website/websiteImages/LONGJOHN_08.jpg");*/
 	background-image: url("https://live.staticflickr.com/65535/51911070540_b0326b6483_h.jpg");
 	}
 
